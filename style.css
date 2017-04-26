@@ -1,0 +1,237 @@
+* {
+	margin: 0px;
+	font-family: 'Montserrat', 'Roboto', sans-serif;
+	letter-spacing: 1px;
+	list-style: none;
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	background-color: #2C3E50;
+	align-items: center;
+	color: #FFF;
+}
+nav span {
+	border: solid 1px #FFF;
+	border-radius: 5px;
+	padding: 10px;
+	font-weight: bold;
+	color: #FFF;
+}
+nav ul {
+	display: none;
+}
+h2 {
+	padding: 20px;
+}
+hr {
+	width: 60%;
+	height: 6px;
+	border: none; 
+	text-align: center;
+	margin-bottom: 20px;
+}
+.presentacion {
+	background-color: #49CCAC;
+	color: #FFF;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	text-align: center;
+}
+.presentacion hr {
+	background-color: #FFF;
+}
+.portfolio {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.portfolio h2 {
+	font-size: 45px;
+	padding-top: 60px;
+}
+.lineaport {
+	background-color: #000;
+}
+.portfolio ul {
+	padding: 0px 0px 60px 0px; 
+}
+.portfolio ul li img {
+	width: 380px;
+	padding: 8px 0px;
+}
+.about {
+	background-color: #49CCAC;
+	color: #FFF;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 20px;
+	font-size: 25px;
+}
+.about h2 {
+	font-size: 45px;
+	padding-top: 40px;
+}
+.about hr {
+	background-color: #FFF;
+}
+.about div p {
+	padding: 10px;
+	text-align: left;
+}
+.about button {
+	border: solid #FFF 2px;
+	border-radius: 8px;
+	background: #49CCAC;
+	padding: 15px;
+	color: #FFF;
+	font-size: 20px;
+	margin: 20px 0px 50px 0px;
+}
+.contact {
+	display: flex;
+	flex-direction:column;
+	align-items:center;
+	justify-contet: center;
+}
+.contact h2 {
+	font-size: 40px;
+	padding-top: 70px;
+}
+.contact hr {
+	background-color: #000;
+}
+.contact form {
+	align-self: flex-start;
+	margin: 20px 0px 60px 0px;
+}
+.contact form fieldset {
+	display: flex;
+	flex-direction: column;
+	border: none;
+	padding: 0px;
+}
+.contact form fieldset input {
+	border-top: solid #E0E0E0  1px;
+	border-bottom: solid #E0E0E0  1px;
+	border-left: none;
+	border-right: none;
+	padding: 30px 0px 30px 10px;
+	font-size: 20px;
+	width: 100%
+}
+.contact form fieldset .cmail {
+	border: none;
+	padding: 28px 0px 28px 10px;
+}
+.contact form fieldset textarea {
+	border: none;
+	border-bottom: solid #E0E0E0  1px;
+	border-left: none;
+	border-right: none;
+	padding: 15px 0px 80px 10px;
+	font-size: 20px;
+	color: #E0E0E0;
+}
+.contact form fieldset .enviar {
+	background-color: #49CCAC;
+	font-weight: bold;
+	color: #FFF;
+	padding: 15px;
+	border-radius: 8px;
+	border: none;
+	width: 80px;
+	letter-spacing: 0px;
+	margin: 15px;
+}
+input::-webkit-input-placeholder {
+    color: #909090;
+}
+textarea::-webkit-input-placeholder {
+    color: #909090;
+}
+footer {
+	background-color: #2C3E50;
+	color: #FFF;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 70px 0px 60px 0px;
+}
+footer .loc {
+	text-align: center;
+	padding-bottom: 50px;
+}
+footer .loc h3 {
+	padding-bottom: 35px;
+	font-size: 30px;
+}
+footer .loc p {
+	padding: 3px;
+	font-size: 22px;
+}
+footer .redes {
+	text-align: center;
+	padding-bottom: 70px;
+}
+footer .redes h3 {
+	padding: 15px 0px 65px 0px;
+	font-size: 26px;
+}
+.icon-facebook {
+	border: solid 2px;
+	border-radius: 30px;
+	padding: 15px;
+	font-size: 25px;
+}
+.icon-google-plus {
+	border: solid 2px;
+	border-radius: 30px;
+	padding: 15px;
+	font-size: 25px;
+}
+.icon-twitter {
+	border: solid 2px;
+	border-radius: 30px;
+	padding: 15px;
+	font-size: 25px;
+}
+.icon-linkedin2 {
+	border: solid 2px;
+	border-radius: 30px;
+	padding: 15px;
+	font-size: 25px;
+}
+.icon-dribbble {
+	border: solid 2px;
+	border-radius: 30px;
+	padding: 15px;
+	font-size: 25px;
+}
+footer .freelancer {
+	text-align: center;
+}
+footer .freelancer h3 {
+	padding-bottom: 40px;
+	font-size: 26px;
+}
+footer .freelancer p {
+	font-size: 22px;
+}
+footer .freelancer span {
+	color: #49CCAC;
+}
+.final {
+	text-align: center;
+	background-color: #233140;
+	color: #FFF;
+	padding: 30px;
+}

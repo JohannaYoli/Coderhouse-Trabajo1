@@ -1,0 +1,147 @@
+@media screen and (min-width: 1024px) {
+	nav h1 {
+		margin-left: 120px;
+		padding: 15px;
+	}
+	nav span {
+		display: none;
+	}
+	nav ul {
+		display: flex;
+		margin-right: 120px;
+	}
+	nav ul li {
+		padding: 10px;
+	}
+	.presentacion {
+		padding: 60px 0px 70px 0px;
+	}
+	.presentacion img {
+		width: 180px;
+	}
+	.presentacion h2 {
+		font-size: 40px;
+	}
+	.presentacion hr {
+		width: 18%;
+	}
+	.presentacion p {
+		font-size: 15px;
+		letter-spacing: 0px;
+	}
+	.portfolio h2 {
+		font-size: 40px;
+		font-weight: bold;
+		padding-top: 80px;
+	}
+	.portfolio hr {
+		width: 18%;
+	}
+	.portfolio ul {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-items: center;
+		margin: 0px 160px 50px 160px;
+	}
+	.portfolio ul li img {
+		width: 320px;
+	}
+	.about h2 {
+		font-size: 40px;
+	}
+	.about hr {
+		width: 18%;
+	}
+	.about div {
+		display: flex;
+		flex-direction: row;
+		margin: 0px 205px;
+		font-size: 18px;
+		line-height: 30px;
+	}
+	.contact h2 {
+		font-size: 40px;
+	}
+	.contact hr {
+		width: 18%;
+	}
+	.contact form {
+		align-self: center;
+		margin-bottom: 95px;
+	}
+	.contact form fieldset input {
+		width: 750px;
+	}
+	.contact form fieldset textarea {
+		width: 750px;
+	}
+	.contact form fieldset button {
+		width: 750px;
+	}
+	footer {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: flex-star;
+		padding: 0px 130px;
+	}
+	footer .loc {
+		width: 33%;
+		padding-top: 30px;
+	}
+	footer .loc h3 {
+		font-size: 20px;
+	}
+	footer .loc p {
+		font-size: 18px;
+	}
+	footer .redes {
+		width: 33%;
+		padding-top: 30px;
+	}
+	footer .redes h3 {
+		padding-top: 15px;
+		font-size: 20px;
+	}
+	.icon-facebook {
+		border: solid 2px;
+		border-radius: 30px;
+		padding: 15px;
+		font-size: 15px;
+	}
+	.icon-google-plus {
+		border: solid 2px;
+		border-radius: 30px;
+		padding: 15px;
+		font-size: 15px;
+	}
+	.icon-twitter {
+		border: solid 2px;
+		border-radius: 30px;
+		padding: 15px;
+		font-size: 15px;
+	}
+	.icon-linkedin2 {
+		border: solid 2px;
+		border-radius: 30px;
+		padding: 15px;
+		font-size: 15px;
+	}
+	.icon-dribbble {
+		border: solid 2px;
+		border-radius: 30px;
+		padding: 15px;
+		font-size: 15px;
+	}
+	footer .freelancer {
+		width: 33%;
+	}
+	footer .freelancer h3 {
+		font-size: 20px;
+	}
+	footer .freelancer p {
+		font-size: 18px;
+	}
+}
